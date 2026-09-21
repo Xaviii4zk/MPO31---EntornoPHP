@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 1800px;
+    margin-left: 40px;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    background-color: brown;
+    height: 300px;
+    margin-bottom: 24px;
+}
+
+header img {
+    height: 250px;
+}
+
+header h1 {
+    font-size: 59px;
+}
+
+.columnas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna-izq {
+
+}
+
+.columna-der {
+    
+}
