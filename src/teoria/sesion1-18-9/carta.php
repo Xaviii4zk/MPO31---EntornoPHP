@@ -29,24 +29,21 @@
             </header>
             <div class="columnas">
                 <div class="columna-izq">
-
+                    <img src="imagenes/xavi.jpg" alt="Yo">
                     <?= $nombre ?>
                 </div>
                 <div class="columna-der">
                     <?= $presentacion ?>
                 </div>
             </div>
-            <div>
-                <?php echo MiNombre(); ?>
-            </div>
         </main>
     </body>
     <footer>
         <div class="nombrecompleto">
-
+            <?php echo MiNombre(); ?>
         </div>
         <div class="FechaActual">
-
+            <?= date("y-m-d") ?>
         </div>
     </footer>
     </html>    
