@@ -4,10 +4,10 @@
     $Ciudad = "Badalona";
     $Aficiones = "jugar al futbol y jugar videojuegos";
     $programar = "A pesar de que programar me cuesta y necesito darle un repaso";
-    $OP = "me gustaria superar los problemas y entender a hacer todo pero siento que me será muy difíci";
+    $OP = "me gustaria superar los problemas y entender a hacer todo pero siento que me será muy difícil";
     $presentacion = 'Me llamo ' .$nombre. ' tengo ' .$edad. ' años y vivo en ' .$Ciudad. 
     ' Una de mis aficiones es ' .$Aficiones. ', también estoy interesado en la 
-    programación ' .$programar. ' y de este curso pienso que ' .$OP. ' pero igual me esforzaré.';
+    programación, ' .$programar. ' y de este curso pienso que ' .$OP. ' pero igual me esforzaré.';
     function MiNombre() {
         return "Xavier Baeza Lerma";
     }
