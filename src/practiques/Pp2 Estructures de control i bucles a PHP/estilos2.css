@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.Tablas {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Tabla {
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
