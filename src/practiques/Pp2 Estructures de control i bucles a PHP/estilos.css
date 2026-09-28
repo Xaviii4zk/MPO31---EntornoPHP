@@ -34,12 +34,14 @@
 }
 
 .tp {
+    padding: 200px;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
 }
 
 a {
-  text-decoration: none;
-  color: blue
-
+    text-decoration: none;
+    color: blue;
 }

@@ -21,3 +21,17 @@ main {
     flex-wrap: wrap;
     display: flex;
 }
+
+.tp {
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.tp2 {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

@@ -23,11 +23,14 @@ $resul = 1;
                     <?php for ($multiplicador = 1; $multiplicador < $final; $multiplicador++): ?>
                         <?php 
                         $resul = $nInicio * $multiplicador;
-                        echo "$nInicio * $multiplicador = $resul <br>";
+                        echo "<div class='Tabla'>$nInicio * $multiplicador = $resul</div>";
                         ?>
                     <?php endfor; ?>
                 </div>
             <?php endfor; ?>
+        </div>
+        <div class="tp2">
+            <a class="tp" href="Ejercicio3.php">Ejercicio 3 Números aleatorios</a>
         </div>
     </main>
 </body>
