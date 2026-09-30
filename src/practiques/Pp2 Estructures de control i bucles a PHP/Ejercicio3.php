@@ -25,10 +25,11 @@ $RandomN = rand(0, 100);
             } else {
             echo "<div class='rojo'>
                     <p>El numero que has tret es $RandomN </p>
-                    <p>El numero que has tret es PARELL </p>
+                    <p>El numero que has tret es IMPARELL </p>
             </div>";            
             } 
         ?> 
+        <a href="Ejercicio4.php">Ejercicio 4</a>
     <main>
 </body>
 </html>
