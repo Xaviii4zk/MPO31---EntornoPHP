@@ -19,7 +19,7 @@ $resul = 1;
     <main>
         <div class="Tablas">
             <?php for ($nInicio = 1; $nInicio <= $final; $nInicio++): ?>
-                <div class="Tabla">
+                <div class="casilla">
                     <?php for ($multiplicador = 1; $multiplicador < $final; $multiplicador++): ?>
                         <?php 
                         $resul = $nInicio * $multiplicador;

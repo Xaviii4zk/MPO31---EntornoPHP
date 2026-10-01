@@ -5,13 +5,66 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
+    width: 750px;
+    margin: 0 auto;
     padding: 30px;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    margin-top: 200px;
+    border: 5px solid #0c0c0c;
+
+}
+
+.Clasificar {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.tarjetas {
+    width: 168px;
+    height: 58px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.tarjetas h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.tarjetas p {
+    font-size: 9px;
+}
+
+.frio {
+    background-color: #1670ed;
+    color: white;
+}
+
+.suau {
+    background-color: #ffbf0b;
+    color: black;
+}
+
+.calor {
+    background-color: #df3045;
+    color: white;
+}
+
+main h3 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
 }
 

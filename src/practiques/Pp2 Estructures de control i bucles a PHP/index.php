@@ -1,33 +1,40 @@
-<?php 
-
-$limite = 500;
-$inicio;
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 2, Ejercicio 1 PHP</title>
+    <title>Pràctica PHP - Índex</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="introduccion">
-        <h1>Los numeros pares de 50 y 500</h1>
-    </div>
-    <div class="Numeros1">
-        <?php for ($inicio = 50; $inicio < $limite; $inicio = $inicio + 5): ?>
+    <main>
+        <div class="contenedor">
+            <?php
 
-            <?php if ($limite % $inicio == 0): ?>
-                <div class="Numeros2"><?php echo $inicio; ?></div>
-            <?php endif; ?>
+            echo '<h1>Pp2: Estructures de control i bucles a PHP - Índex</h1>';
 
-        <?php endfor; ?>
-    </div>
-    <div class="tp">
-        <a href="ejercicio2.php">Ejercicio 2 Tablas de Multiplicar</a>
-    </div>
+            echo '<h2>Exercici 1</h2>';
+            echo '<p>Números entre 50 i 500</p>';
+            echo '<a href="Ejercicio1.php">Veure Exercici 1</a>';
+
+            echo '<h2>Exercici 2</h2>';
+            echo '<p>Taules de Multiplicar</p>';
+            echo '<a href="Ejercicio2.php">Veure Exercici 2</a>';
+
+            echo '<h2>Exercici 3</h2>';
+            echo '<p>Nombre aleatori parell o senar</p>';
+            echo '<a href="Ejercicio3.php">Veure Exercici 3</a>';
+
+
+            echo '<h2>Exercici 4</h2>';
+            echo '<p>Divisors un nombre i verificació de nombre</p>';
+            echo '<a href="Ejercicio4.php">Veure Exercici 4</a>';
+
+            echo '<h2>Exercici 5</h2>';
+            echo '<p>L’home del temps</p>';
+            echo '<a href="Ejercicio5.php">Veure Exercici 5</a>';
+            ?>
+        </div>
+    </main>
 </body>
 </html>

@@ -2,9 +2,7 @@
 
 $RandomN = rand(0, 100);
 
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,21 +13,24 @@ $RandomN = rand(0, 100);
     <link rel="stylesheet" href="Ejercicio3.css">
 </head>
 <body>
+
     <main>
+
         <?php
             if ($RandomN % 2 == 0) {
-            echo "<div class='verde'>
-                    <p>El numero que has tret es $RandomN </p>
-                    <p>El numero que has tret es PARELL </p>
-            </div>";
+                echo "<div class='verde'>
+                        <p>El numero que has tret es $RandomN</p>
+                        <p>El numero que has tret es PARELL</p>
+                    </div>";
             } else {
-            echo "<div class='rojo'>
-                    <p>El numero que has tret es $RandomN </p>
-                    <p>El numero que has tret es IMPARELL </p>
-            </div>";            
+                echo "<div class='rojo'>
+                        <p>El numero que has tret es $RandomN</p>
+                        <p>El numero que has tret es IMPARELL</p>
+                    </div>";            
             } 
+
+            echo '<a href="Ejercicio4.php">Ejercicio 4</a>';
         ?> 
-        <a href="Ejercicio4.php">Ejercicio 4</a>
-    <main>
+    </main>
 </body>
 </html>
