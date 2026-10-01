@@ -34,7 +34,6 @@ main {
     border-radius: 4px;
     text-align: center;
     padding: 8px;
-    flex-shrink: 0;
 }
 
 .tarjetas h2 {
@@ -62,7 +61,6 @@ main {
 }
 
 main h3 {
-    flex-basis: 100%;
     text-align: center;
     margin-top: 25px;
     font-size: 17px;
