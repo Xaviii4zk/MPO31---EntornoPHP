@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 800px;
+    margin: 200px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.pantalla {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+.pantalla iframe {
+    width: 900px;
+    height: 500px;
+    border: none;
+}
+
+.volver {
+    width: 300px;
+    padding: 20px;
+    background-color: #293848;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.volver:hover {
+    background-color: #3d5269;
+}

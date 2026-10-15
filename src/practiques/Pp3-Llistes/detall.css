@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.linea {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto 30px auto;
+    margin-bottom: 20px;
+}
+
+.Separar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    align-items: stretch;
+}
+
+.izquierda {
+    width: 300px;
+}
+
+.izquierda img {
+    width: 100%;
+    height: 100%;
+}
+
+.derecha {
+    flex: 1;
+    min-width: 0;
+    width: auto;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.contenido {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contenido span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.Fechas {
+    width: 250px;
+    height: 40px;
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Horas_disponibles {
+    width: 90%;
+    height: auto;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.Horas_disponibles p {
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 40px;
+}
+
+.Horas_disponibles span {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+}
+
+.Horas_disponibles span:hover {
+    cursor: pointer;
+}
+
+.direccionar a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.direccionar a i {
+    color: red;
+    font-size: 16px;
+}
+
+.direccionar a button {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.direccionar {
+    display: flex;
+    gap: 20px;
+}
+
+.direccionar button:hover {
+    background-color: red;
+}
