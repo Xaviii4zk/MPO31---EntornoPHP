@@ -1,0 +1,2 @@
+generarTablaProductos($productos)
+
