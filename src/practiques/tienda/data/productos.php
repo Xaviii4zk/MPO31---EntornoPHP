@@ -2,33 +2,31 @@
 
 $productos = [
     [
-        "nombre"=>"Aguacate",
-        "precio"=>"8$",
-        "disponibilidad"=>false,
+        "Nombre"=>"Aguacate",
+        "Precio"=>"8$",
+        "Disponibilidad"=>false,
     ],
     [
-        "nombre"=>"Naranja",
-        "precio"=>"5$",
-        "disponibilidad"=>true,
+        "Nombre"=>"Naranja",
+        "Precio"=>"5$",
+        "Disponibilidad"=>true,
     ],
     [
-        "nombre"=>"Limon",
-        "precio"=>"7$",
-        "disponibilidad"=>false,
+        "Nombre"=>"Limon",
+        "Precio"=>"7$",
+        "Disponibilidad"=>false,
     ],
     [
-        "nombre"=>"Queso",
-        "precio"=>"3$",
-        "disponibilidad"=>true,
+        "Nombre"=>"Queso",
+        "Precio"=>"3$",
+        "Disponibilidad"=>true,
     ],
     [
-        "nombre"=>"Carne_picada",
-        "precio"=>"15$",
-        "disponibilidad"=>true,
+        "Nombre"=>"Carne_picada",
+        "Precio"=>"15$",
+        "Disponibilidad"=>true,
     ],
-]
-
-
+];
 
 
 ?>

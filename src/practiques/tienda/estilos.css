@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+.tabla, .tabla2 {
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.tabla th {
+    border: 1px solid black;
+
+}
+
+.tabla2 td, .tabla td {
+    border: 1px solid black;
+}
+
+.tabla td:first-child {
+    background-color: rgb(20, 146, 119);
+}
+
+.tabla td:nth-child(2) {
+    background-color: rgb(194, 214, 8);
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.modal-body img {
+    max-width: 80%;
+    display: block;
+    margin-top: 5px;
+}
+
+.agotado {
+    background-color: red;
+}
+
+.stock {
+    background-color: yellowgreen;
+}

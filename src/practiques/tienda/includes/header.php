@@ -1,8 +1,8 @@
 <?php
 
-if (isset($_POST["Nombre"]) && isset($_POST["URL"])) {
+if (isset($_POST["Nombre"]) && isset($_POST["Foto"])) {
 $Nombre = $_POST["Nombre"];
-$URL = $_POST["URL"];
+$Foto = $_POST["Foto"];
 }
 ?>
 
@@ -26,7 +26,7 @@ $URL = $_POST["URL"];
                     <h2 class="me-3 mb-0 px-4">Bienvenido <?php echo $Nombre ?>!!!</h2>
 
                     <img
-                    <?php  echo 'src="' . $URL . '"';?>
+                    <?php  echo 'src="' . $Foto . '"';?>
                         alt="Avatar"
                         class="rounded-circle"
                         style="width: 50px; height: 50px;">

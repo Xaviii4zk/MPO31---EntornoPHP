@@ -1,6 +1,10 @@
 <?php
 
-include 'includes/header.php';
+if (isset($_POST["Nombre"]) && isset($_POST["Telefono"]) && isset($_POST["Foto"])) {
+    $Nombre = $_POST["Nombre"];
+    $Telefono = $_POST["Telefono"];
+    $Foto = $_POST["Foto"];
+}
 
 ?>
 
@@ -16,12 +20,16 @@ include 'includes/header.php';
         rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
     <?php
-        // Incluimos los componentes
+    include 'includes/header.php';
+    include 'data/productos.php';
+    include 'includes/funciones.php';
+
     ?>
 
     <div class="container">
@@ -30,6 +38,9 @@ include 'includes/header.php';
             <h2>Productos disponibles</h2>
 
             <!-- aqui va la tabla de productos -->
+             <?php
+            generarTablaProductos($productos);
+            ?>
         </div>
 
         <!-- aqui incluye los datos de contacto del cliente con un toast live -->
@@ -75,14 +86,7 @@ include 'includes/header.php';
                         <!-- AQUI VA LA INFORMACIÓN DE CONTACTO -->
                         <?php
 
-                        if (isset($_POST["Nombre"]) && isset($_POST["Telefono"]) && isset($_POST["URL"])) {
-                            $Nombre = $_POST["Nombre"];
-                            $Telefono = $_POST["Telefono"];
-                            $URL = $_POST["URL"];
-                            echo "Nombre: " . $Nombre . "<br>";
-                            echo "Número: " . $Telefono . "<br>";
-                            echo "URL: " . "<img src='" . $URL . "'>";
-                        }
+                        muestraInfoContacto($Nombre, $Telefono, $Foto);
 
                         ?>
                     </div>
@@ -93,22 +97,28 @@ include 'includes/header.php';
 
         <!-- Modal con la lista de productos que están disponibles -->
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <!-- AQUI LA LISTA DE PRODUCTOS -->
+            
+        <?php
+
+        MostrarProductos($productos);
+
+        ?>
+
         </div>
-
-        <!-- aqui va un footer -->
-
     </div>
+
+
 
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous">
     </script>
-<?php
 
-include 'includes/footer.php';
+    
+        <?php
 
-?>
+        include 'includes/footer.php';
+        ?>
 </body>
 </html>

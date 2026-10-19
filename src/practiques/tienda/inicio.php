@@ -25,7 +25,7 @@
             <form action="index.php" method="POST">
                 <input type="text" name="Nombre" placeholder="Inserte su nombre">
                 <input type="tel" name="Telefono" placeholder="Inserte su numero de telefono">
-                <input type="url" name="URL" placeholder="Inserte la URL">
+                <input type="url" name="Foto" placeholder="Inserte la URL">
                 <button type="submit">Enviar datos</button>
             </form>
             <!-- AQUÍ PUEDES USAR UN FORM DE BOOTSTRAP 5 SENCILLO PARA PEDIR LOS DATOS:
