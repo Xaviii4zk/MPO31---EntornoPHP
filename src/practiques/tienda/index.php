@@ -33,7 +33,15 @@ if (isset($_POST["Nombre"]) && isset($_POST["Telefono"]) && isset($_POST["Foto"]
     ?>
 
     <div class="container">
+        <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
 
+            Mi perfil 🖐
+
+        </button>
         <div>
             <h2>Productos disponibles</h2>
 
@@ -46,15 +54,6 @@ if (isset($_POST["Nombre"]) && isset($_POST["Telefono"]) && isset($_POST["Foto"]
         <!-- aqui incluye los datos de contacto del cliente con un toast live -->
 
         <!-- Button trigger modal -->
-        <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop">
-
-            Mi perfil 🖐
-
-        </button>
 
         <!-- Modal que al clicar aparece info de contacto -->
         <div
@@ -106,19 +105,14 @@ if (isset($_POST["Nombre"]) && isset($_POST["Telefono"]) && isset($_POST["Foto"]
 
         </div>
     </div>
-
-
-
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous">
     </script>
-
-    
-        <?php
-
-        include 'includes/footer.php';
-        ?>
 </body>
+    <?php
+
+    include 'includes/footer.php';
+    ?>
 </html>
