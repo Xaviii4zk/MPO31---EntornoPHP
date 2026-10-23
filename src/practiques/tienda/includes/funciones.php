@@ -11,7 +11,7 @@ function generarTablaProductos($productos) {
 
     foreach ($productos as $comida) {
         echo '<tr>
-                <td>' . $comida["Nombre"] . '</td>
+                <td>' . ucfirst($comida["Nombre"]) . '</td>
                 <td>' . number_format((float) str_replace('$', '', $comida["Precio"]), 2) . ' €</td>';
         if ($comida["Disponibilidad"] == true) {
             echo '<td class="stock">En stock</td>';
@@ -38,12 +38,9 @@ function MostrarProductos($productos) {
             </tr>';
     foreach ($productos as $producto) {
         echo '<tr>';
-                if ($producto["Disponibilidad"] == true) {
-                    echo '<td class="stock">' . $producto["Nombre"] . '</td>';
-                } else {
-                    echo '<td class="agotado">' . $producto["Nombre"] . '</td>';
-                }
-              echo'</tr>';
+            echo '<td class="' . ($producto["Disponibilidad"] == true ? "stock" : "agotado") . '">' .
+                ($producto["Disponibilidad"] == true ? "En stock" : "Agotado") . '</td>';
+        echo'</tr>';
               $i++;
     }
 

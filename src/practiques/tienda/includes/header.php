@@ -14,7 +14,6 @@ $Foto = $_POST["Foto"];
             <a class="navbar-brand" href="index.php">
                 <img
                     src="./data/assets/logo-mercadona.jpg" alt="Mercadona"
-                    alt="logo-mercadona"
                     class="img-fluid"
                     style="height: 50px;">
             </a>

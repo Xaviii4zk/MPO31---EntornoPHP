@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="footer.css">
-
-
+<link rel="stylesheet" href="includes/divfooter.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 <footer>
     <div class="ColumnasFooter">
         <div class="Cliente">
@@ -35,13 +34,13 @@
             <h3>800 500 220</h3>
 
             <div class="RedesSociales">
-                <a href="#">Email</a>
-                <a href="#">Facebook</a>
-                <a href="#">X</a>
-                <a href="#">YouTube</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">TikTok</a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </div>
     </div>
