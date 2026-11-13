@@ -1,5 +1,4 @@
 <?php
-
 $contbasura = 0;
 
 function ReciclarVidrio() {
@@ -15,10 +14,11 @@ function ReciclarVidrio() {
 
 
 function MostrarTarjetas() {
-    foreach($residu as $residu) {
+    foreach($residus as $residu) {
         $aleatori =  array_rand($_SESSION['residus']);
-        echo '<img src= '. $_SESSION['residus']['img']; .'>';
-
+        echo '<div class"Tarjeta">';
+            echo '<img src= '. $_SESSION['residus']['img'] .'>';
+        echo '</div>';
     }
 }
 
@@ -48,7 +48,7 @@ function ReciclarPapelYCarton() {
 
 function ReciclarOrganico() {
     array_push($_SESSION['basura'], $residus[$aleatori]);
-    array_push($_SESSION['residu_organics'], $residus$residus[$aleatori]);
+    array_push($_SESSION['residu_organics'], $residus[$aleatori]);
     unset($_SESSION['residus'][$aleatori]);
     array_values($_SESSION['residus']);
     $NOrganico = count($_SESSION['residu_organics']);

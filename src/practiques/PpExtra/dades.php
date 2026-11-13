@@ -135,11 +135,12 @@ $residu_vidre = [
 ];
 // COLOR VERDE
 
-$_SESSION['residu_organics'] = $residu_organics;
-
 $residu_organics = [
 
 ];
+
+$_SESSION['residu_organics'] = $residu_organics;
+
 //COLOR MARRON (restes de menjar)
 
 $_SESSION['residu_organics'] = $residu_organics;

@@ -1,6 +1,7 @@
 <?php
 session_start();
 include 'dades.php';
+include 'functions.php';
 $residus = $_SESSION['residus'];
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['nombre']))) {
    $_SESSION['nombre'] = $_POST['nombre'];
@@ -30,7 +31,7 @@ if (!isset($_SESSION['nombre'])) {
 
     <?php
 
-
+    MostrarTarjetas();
 
     ?>
 
