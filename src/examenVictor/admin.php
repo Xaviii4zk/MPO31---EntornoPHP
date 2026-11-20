@@ -63,6 +63,7 @@ include "includes/header.php";
                 </thead>
                 <tbody>
                     <?php foreach ($_SESSION["preguntes"] as $p) { ?>
+
                         <tr>
                             <td><?php echo $p["id"]; ?></td>
                             <td><?php echo $p["categoria"]; ?></td>
